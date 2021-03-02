@@ -1,4 +1,4 @@
-## 
+## Skillup-Poymorphisim
 
 **Polymorphism** is the ability of a variable, function, object or class to take on multiple forms while sharing the same underlying data or common interface. for instance a Class of Human can take the form student, father, Baby e.t.c.
 Polymorphism can be dynamic(runtime) polymorphism or static(compile time polymorphism).
