@@ -18,3 +18,6 @@ for (
       console.log(`the sorted up to j= ${j}  and i= ${i} is ${arr}`);
     }
 console.log(`the final sorted array is ${arr}`);
+
+
+
