@@ -33,18 +33,24 @@ const movie = {
   rating: 4.8,
   actor: {
     name: 'Lenard',
-    occupation: 'Physicist',
+    occupation: 'Experimental Physicist',
     IQ: 150,
+    physicalAppearance: {
+      height: '178cm',
+      size: 'slim',
+      muscular: false,
+      complexion: 'Light-Skinned',
+    },
     glasses: true,
-    height: '178cm',
-    currentgirlFriend: false,
-    exGirlFriends: ['Penny', 'Lezli', 'Amy'],
+    age: 30,
+    girlFriend: false,
+    exGirlFriends: ['Penny', 'Lezli', 'Amy', 'Stephanie'],
     nationailty: 'American',
     education: 'PhD',
   },
   yearOfProduction: 2012,
   numberOfSeasons: 12,
-  genre: ['sitcomedy', 'Science', 'Romance'],
+  genre: ['Sitcomedy', 'Science', 'Romance'],
   TotalNumberOfEpisodes: 299,
   cast: [
     'Sheldon Cooper',
@@ -56,4 +62,4 @@ const movie = {
   budget: '$9,000,000',
   revenue: '$1 billion',
 };
-console.log(movie.genre);
+console.log(movie.actor.physicalAppearance.muscular);

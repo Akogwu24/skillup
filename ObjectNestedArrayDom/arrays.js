@@ -1,4 +1,4 @@
-const banks = [
+const FinancialInstitutions = [
   ['Guaranteed Trust Bank', 'Zenith Bank', 'Access Bank'],
   ['AB mfb', 'Finatrust mfb', 'Lapo mfb'],
   ['Ren Money mfi', 'Page Financial Services', 'Zedvance mfi'],
@@ -7,7 +7,7 @@ const banks = [
 const frontEndDevelopers = [
   ['Ochade', 'Chidera', 'Chioma'],
   ['Adefisayor', 'Shukurah', 'Kenny'],
-  ['Agbeti', 'Samuel', 'Micheal'],
+  ['Favour', 'Samuel', 'Micheal'],
   ['Akogwu', 'Emmanuel'],
 ];
 
