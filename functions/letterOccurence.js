@@ -15,10 +15,10 @@ function findAlphabetOcurrence(word, alphabet) {
         numberOfAppearance++;
       }
     }
-    return "Alphabet is present " + numberOfAppearance + " times";
+    return 'Alphabet is present ' + numberOfAppearance + ' times';
   } else {
-    return "Alphabet is not present in word";
+    return 'Alphabet is not present in word';
   }
 }
-const occurences = findAlphabetOcurrence("hippopotamus", "s");
+const occurences = findAlphabetOcurrence('hippopotamus', 'p');
 console.log(occurences);

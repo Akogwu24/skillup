@@ -62,4 +62,4 @@ const movie = {
   budget: '$9,000,000',
   revenue: '$1 billion',
 };
-console.log(movie.actor.physicalAppearance.muscular);
+console.log(house.bodySize);
