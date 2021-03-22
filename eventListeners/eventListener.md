@@ -41,3 +41,8 @@ button.addEventListener('click', (e)=>{ //e is the event parameter whicch is the
 3. Focus
 4. Clipboard
 5. CSS transition 
+6. FullScren
+7. Gamepad
+8. Inputs
+9. Media
+10. Text Selection
