@@ -72,8 +72,6 @@ for (let index of arr) {
 ```
 
 
-
-
 ## While Loop
 The while loop starts by evaluating the condition. If the condition is true, the statement(s) is/are executed. If the condition is false, the statement(s) is/are not executed. The while loop ends.
 
@@ -82,37 +80,4 @@ Here is the general syntax for while loop:
 while (condition){
    // code block 
 }
-```
-
-### for...of and forEach
-consider the code snippets below
-```
-for ( club of footBallClubs ) {
- const objectValues = Object.values(club)
- const secondValue = objectValues[1]
- 
- console.log(secondValue)
-}
-// outputs england, england and italy 
- 
-footBallClubs.forEach((club) => {
- const objectValues = Object.values(club)
- const secondValue = objectValues[1]
- 
- console.log(secondValue)
-})
-// outputs england, england and italy
-```
-
-There is no difference between the two blocks of codes as they both return th same results
-```
-// the for...of returns 
-england
-englend
-italy
-
-// the forEach returns
-england
-england
-italy
 ```
