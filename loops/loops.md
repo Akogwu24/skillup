@@ -62,12 +62,12 @@ the for...of syntax is written as
 const arr = [3, 5, 7];
 arr.foo = 'hello'; // property of foo set to 'hello' asvalue
 
-for (let i in arr) {
-   console.log(i); // logs "0", "1", "2", "foo" (returns keys)
+for (let index in arr) {
+   console.log(index); // logs "0", "1", "2", "foo" (returns keys)
 }
 
-for (let i of arr) {
-   console.log(i); // logs 3, 5, 7 (returns values)
+for (let index of arr) {
+   console.log(index); // logs 3, 5, 7 (returns values)
 }
 ```
 
@@ -82,4 +82,37 @@ Here is the general syntax for while loop:
 while (condition){
    // code block 
 }
+```
+
+### for...of and forEach
+consider the code snippets below
+```
+for ( club of footBallClubs ) {
+ const objectValues = Object.values(club)
+ const secondValue = objectValues[1]
+ 
+ console.log(secondValue)
+}
+// outputs england, england and italy 
+ 
+footBallClubs.forEach((club) => {
+ const objectValues = Object.values(club)
+ const secondValue = objectValues[1]
+ 
+ console.log(secondValue)
+})
+// outputs england, england and italy
+```
+
+There is no difference between the two blocks of codes as they both return th same results
+```
+// the for...of returns 
+england
+englend
+italy
+
+// the forEach returns
+england
+england
+italy
 ```
