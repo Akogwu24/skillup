@@ -1,7 +1,7 @@
 # Higher Order Functions
-A Higher-order function is a function that receives a function as an argument or returns a function as an output.
-
-**caveat** they don't change the underlying original array
+Higher-order Function is any function that operates on other function either by taking them as input(argument) or or returns a function
+A Higher-order function is a function that receives a function as an argument (input) or returns a function as an output.
+ 
 
 * Example of a function recieveing as an argument
 ```
@@ -33,6 +33,8 @@ console.log(result)
 ## Uses of Higher Order Function
 * Higher-Order functions allow us to write simple and clean code.
 * Easy to Test and Debug
+* Used to Abstract or isolate effects, actions or async control using callback functions, promises, monads and so on.
+* create Utilities which can act o wide variety of Data types
 
 examples of Higher Order Functions are filtre(), map(), reduce(), forEach(), replace(), find(), some(), every(), reduce().
 
