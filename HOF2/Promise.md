@@ -15,7 +15,7 @@ The use of the word “promise” was coined by Barbara Liskov and Liuba Shrira 
 The general concept of  promise can be written as:
 
 ```
-const akogwuPromise = new Promise((resolve, reject) => { // created a new promise called akogwuPromise with the Promise Object constructor.
+const akogwuPromise = new Promise((resolve, reject) => { // creates a new promise called akogwuPromise with the Promise Object constructor.
 
     let condition;  
     
@@ -28,6 +28,18 @@ const akogwuPromise = new Promise((resolve, reject) => { // created a new promis
     }
 });
 
+```
+
+for example:
+```
+const akogwuPromise1 = new Promise((resolve, reject) => {
+  let inclass;
+  if(inclass==true) {
+    return resolve('akogwu is in class')
+  }else {
+   return reject('akogw failed his promise to be rin class')
+  }
+})
 ```
 example of Promise Application for akogwu attending class on monday:
 ```
